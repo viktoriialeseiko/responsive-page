@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.clr {
+    clear: both;
+}
+    
+.box {
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    background-color: lightgray;
+    margin: 3px 10px;
+    padding: 10px;
+}
+ul {
+    padding: 10px;
+}
+ul li {
+    list-style: none;
+}
+.main {
+    padding: 10px;
+}
+img {
+    width: 100%;
+}
+.side {
+    margin: 0 10px;
+    border: 1px solid rgb(147, 213, 233);
+    background-color: rgb(147, 213, 233);
+}
+
+footer {
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .list {
+        margin: 0;
+        width: 30%;
+        float: left;
+    }
+    .main {
+        width: 60%;
+        float: left;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .list {
+        margin: 0;
+        width: 20%;
+        float: left;
+    }
+    .main {
+        width: 50%;
+        float: left;
+        padding: 0;
+    }
+    .side {
+        float: right;
+        width: 20%;
+    }
+    .clr {
+        display: none;
+    }
+    .delete {
+        clear: both;
+    }
+}
